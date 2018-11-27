@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Serial HK</string>
+    <string name="action_settings">Settings</string>
+    <string name="serial_port">Serial Port</string>
+    <string name="add1">Configuracion</string>
+    <string name="add2">Borrar</string>
+    <string name="add3">Salir</string>
+    <string name="add4">Regresar</string>
+    <string name="Bauds">Bits por Segundos</string>
+    <string name="Datos">Datos de Bits</string>
+    <string name="Paridad">Bits de Paridad</string>
+    <string name="Stop">Stop de Bits</string>
+    <string name="Control">Bandera de Control</string>
+    <string name="Defaults">Valores por Defecto</string>
+    <string name="Envio">Enviar</string>
+
+    ///////////////////////////////////////////////////////
+    //             Serial                                //
+    ///////////////////////////////////////////////////////
+
+    <string-array name="Baud">
+        <item>9600</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>28800</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>153600</item>
+        <item>230400</item>
+    </string-array>
+    <string-array name="Data">
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Parity">
+        <item>None</item>
+        <item>Even</item>
+        <item>Odd</item>
+        <item>Mark</item>
+        <item>Space</item>
+    </string-array>
+    <string-array name="Stop">
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Control">
+        <item>None</item>
+        <item>RTS/CTS/</item>
+        <item>Xon/Xoff</item>
+        <item>DTR/DSR</item>
+        <item>XON/OFF</item>
+    </string-array>
+
+    ////////////////////////////////////////////////////////
+    //                                                    //
+    ////////////////////////////////////////////////////////
+
+
+</resources>
